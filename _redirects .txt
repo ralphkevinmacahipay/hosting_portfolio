@@ -1,5 +1,5 @@
 # Redirect /home to the home page (assuming it's served from /index.html)
-/home   /   200
+/home   /   index.html 200
 
 # If none of the above matches, redirect to the 404.html page
 /*   /404.html   404
